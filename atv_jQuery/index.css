@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lilita+One&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Spicy+Rice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+body{
+    background-color: rgb(2, 247, 255);
+    text-align: center;
+}
+header {
+    /* display: none;
+    background: #9bfafd;
+    padding: 1%;
+    width: 100%;
+    font-size: 25px;
+    border-bottom: 4px solid black;
+    position: fixed; */
+    background-color: #9bfafd;
+    padding: 10px 0;
+    color: #000000;
+    border-bottom: 8px solid #002c6d;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+h1 {
+    font-family: "Spicy Rice", serif;
+}
+button {
+    background: rgb(123, 121, 252);
+    padding: 0.5%;
+    border: 1.5px solid black;
+    border-radius: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form{
+    background-color: #3eccd1;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input{
+    padding: 8px;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+ul{
+    padding: 0.5%;
+    max-width: 100%;
+    max-height: 280px;
+    text-align:center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+ul button{
+    border: none;
+    background-color: rgb(2, 247, 255);
+    font-size: 25px;
+}
+
+.finalizado {
+    text-decoration: line-through;
+}
